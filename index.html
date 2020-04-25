@@ -1,56 +1,128 @@
 <!DOCTYPE html>
 <html>
-        <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri|Libre+Franklin:400,600|Nunito:400,700&amp;display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <style>
-            .Title {
-                margin-top: 100px;
-                margin-left:100px;
-                color: #4A154B;
-                font-size: 90px;
-                font-family: 'Nunito', sans-serif;
+            .micontainer
+            {
+                margin-top: 50px;
             }
-            .footer {
-                position: fixed;
-                left: 0;
-                bottom: 0;
-                width: 100%;
-                background-color: #0B2239;
-                color: white;
-                text-align: center;
+            .footer-tags {
+              margin-bottom: 50px;
+              float: none;
+              padding-left: 0;
             }
-            .Description {
-                color: #272343;
-                font-size: 24px;
-                margin: 15px 0;
-                margin-left:100px;
-                font-family: 'Nunito', sans-serif;
+            .tags {
+              float: left;
+              padding-top: 10px;
             }
-            nav {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
+            .button {
+              background: #303030;
+              border: none;
+              border-radius: 3px;
+              color: #fefefe;
+              font-size: 14px;
+              font-weight: 700;
+              padding: 10px 12px;
+              margin-top: 20px;
+              display: inline-table;
+              text-decoration: none;
             }
-            .imgClass {
-                display: block;
-                margin-left: auto;
-                margin-right: 200px;
-                margin-top: 100px;
-                width: 50%;
+            .button:focus{
+              text-decoration: none !important;
             }
-            </style>
-<body>
-<nav>
-    <section>
-        <h1 class="Title">PowerApps</h1>
-        <p class="Description">Aquí podrás encontrar material sobre esta gran plataforma low-code</p>
-    </section>
-    <section>
-        <img src="folderman.png" class="imgClass">
-    </section>
-</nav>
-<div class="footer">
-    <p>¡Gracias!</p>
-</div>
 
+            .PowerApps {
+              background-color: #6C3483;
+              color: #fff!important;
+            }
+            .PowerAutomate {
+              background-color: #0066FF;
+              color: #fff!important;
+            }
+            .PowerBI {
+              background-color: #f3df28;
+              color: rgb(8, 7, 7)!important;
+            }
+            .Gobernanza{
+              background-color: #fcfcfc;
+              color: rgb(110, 7, 136)!important;
+              border:1px solid #6C3483 !important;
+            }
+            .virtualagents{
+              background-color: #0a556a;
+              color: rgb(252, 252, 252)!important;
+            }
+            .list-group-item{
+              border: none !important;
+            }
+
+            .post-stub-title {
+              font-size: 30px;
+              display: inline-block;
+              margin: 0;
+              font-weight: 900;
+              color: #303030;
+              }
+              p.post-description {
+                font-size: 1.2rem;
+              }
+              #topbar {
+                text-align: center;
+                padding: 5px;
+                color: white;
+                background-color: #6C3483;
+                position: absolute;
+                top: 0;
+                width: 100%;
+                }
+            </style>
+       <body>
+    <div id="topbar">
+      <b>Patreon</b> <a href="https://bootcamp.flaviocopes.com" style="color: white; text-decoration: underline">aquí</a> 
+    </div>
+    <div class="container micontainer">
+        <div class="row">
+                
+
+                <div class="col-sm">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p>
+                        
+                        <a href="#" target="_blank" rel="noopener">Follow me</a>
+                        on Twitter!
+                      </p>
+                  <div class="tags footer-tags">
+                    <a href="/tags/powerapps/" class="button PowerApps">PowerApps</a>
+                    <a href="/tags/powerautomate/" class="button PowerAutomate">Power Automate</a>
+                    <a href="/tags/powerbi/" class="button PowerBI">Power BI</a>
+                    <a href="/tags/powerbi/" class="button Gobernanza">Gobernanza</a>
+                    <a href="/tags/powerbi/" class="button virtualagents">Virtual Agents</a>
+                    <a href="/tags/powerapps/" class="button PowerApps">AI Builder</a>
+                  </div>
+                </div>
+                <div class="col-md-auto">
+                        <div class="list-group">
+                                <a href="#" class="list-group-item list-group-item-actions">
+                                  <div class="d-flex w-100 justify-content-between">
+                                    <h1 class="post-stub-title">Aplicaciones auto-generadas</h1>
+                                    <small>22 Abril 2020</small>
+                                  </div>
+                                  <br>
+                                  <p class="post-description">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                                
+                                </a>
+                                <hr>
+                              </div>
+                </div>
+        </div>
+    </div>
 </body>
 </html>
