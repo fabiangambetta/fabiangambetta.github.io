@@ -5,6 +5,7 @@
             .micontainer
             {
                 margin-top: 50px;
+                max-width: 80% !important;
             }
             .footer-tags {
               margin-bottom: 50px;
@@ -20,7 +21,7 @@
               border: none;
               border-radius: 3px;
               color: #fefefe;
-              font-size: 14px;
+              font-size: 12px;
               font-weight: 700;
               padding: 10px 12px;
               margin-top: 20px;
@@ -59,12 +60,13 @@
             .post-stub-title {
               font-size: 30px;
               display: inline-block;
-              margin: 0;
+              margin-bottom:20px;
               font-weight: 900;
               color: #303030;
               }
               p.post-description {
                 font-size: 1.2rem;
+                margin-bottom: 25px;
               }
               #topbar {
                 text-align: center;
@@ -75,6 +77,18 @@
                 top: 0;
                 width: 100%;
                 }
+                .post-stub-date {
+                  text-align: right;
+                  font-family: 'Inconsolata', monospace;
+                  display: inline-block;
+                  font-size: 18px;
+                  padding-top: 8px;
+                }
+                .line
+                {
+                  border-bottom: 2px dotted #6C3483;
+                  margin-top: 25px;
+                }
             </style>
        <body>
     <div id="topbar">
@@ -82,20 +96,8 @@
     </div>
     <div class="container micontainer">
         <div class="row">
-                
-
-                <div class="col-sm">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                <div class="col-3">
                     <p>
-                        
                         <a href="#" target="_blank" rel="noopener">Follow me</a>
                         on Twitter!
                       </p>
@@ -108,19 +110,47 @@
                     <a href="/tags/powerapps/" class="button PowerApps">AI Builder</a>
                   </div>
                 </div>
-                <div class="col-md-auto">
+                <div class="col-9">
                         <div class="list-group">
-                                <a href="#" class="list-group-item list-group-item-actions">
-                                  <div class="d-flex w-100 justify-content-between">
-                                    <h1 class="post-stub-title">Aplicaciones auto-generadas</h1>
-                                    <small>22 Abril 2020</small>
+                                  <!--START-->
+                                  <div class="row line">
+                                      <div class="col-10">
+                                        <h1 class="post-stub-title">Aplicaciones auto-generadas</h1>
+                                        <br>
+                                        <p class="post-description">Nulla porttitor, lectus sed faucibus egestas, nisi sapien efficitur arcu, eu porttitor justo leo vitae nibh</p>
+                                      </div>
+                                      <div class="col-2 align-items-end">
+                                        <small class="post-stub-date">Abril 2020</small>
+                                        <small><a href="/tags/powerapps/" class="button PowerApps">PowerApps</a></small>
+                                      </div>     
                                   </div>
-                                  <br>
-                                  <p class="post-description">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                                
-                                </a>
-                                <hr>
-                              </div>
+                                  <!--END-->
+                                  <div class="row line">
+                                      <div class="col-10">
+                                        <h1 class="post-stub-title">Flujos de aprobación</h1>
+                                        <br>
+                                        <p class="post-description">Nulla porttitor, lectus sed faucibus egestas, nisi sapien efficitur arcu, eu porttitor justo leo vitae nibh</p>
+                                      </div>
+                                      <div class="col-2 align-items-end">
+                                        <small class="post-stub-date">Febrero 2020</small>
+                                        <small><a href="/tags/powerautomate/" class="button PowerAutomate">Power Automate</a></small>
+                                      </div>     
+                                  </div>
+                                  <!--END-->
+                                  <div class="row line">
+                                      <div class="col-10">
+                                        <h1 class="post-stub-title">Monitorep de aplicaciones en entornos</h1>
+                                        <br>
+                                        <p class="post-description">Nulla porttitor, lectus sed faucibus egestas, nisi sapien efficitur arcu, eu porttitor justo leo vitae nibh</p>
+                                      </div>
+                                      <div class="col-2 align-items-end">
+                                        <small class="post-stub-date">Febrero 2020</small>
+                                        <small><a href="/tags/powerbi/" class="button Gobernanza">Gobernanza</a></small>
+                                      </div>     
+                                  </div>
+                                  <!--END-->
+
+                        </div>
                 </div>
         </div>
     </div>
